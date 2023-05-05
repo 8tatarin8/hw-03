@@ -1,0 +1,169 @@
+/*последовательность действий:
+1. Подключить шрифты
+2. Подключить modern-normalize
+3. Сбросить настройки*/
+
+/*-------------------------сбрасываю все настройки-------------------------*/
+.list {
+    list-style: none;
+}
+.link {
+    text-decoration: none;
+}
+button {
+    cursor: pointer;
+}
+/*-------------------------HEADER-------------------------*/
+.web-text {
+    font-family: 'Raleway';
+    sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
+}
+
+.studio-text {
+    font-family: 'Raleway';
+    sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    text-transform: uppercase 
+    color: #F4F4FD;
+}
+
+.web-text {
+    color: #4D5AE5;
+}
+.studio-text {
+    color: #2E2F42;;
+}
+/*інтерактивні посилання*/
+.header-contacts-item{
+    font-family: 'Roboto'; sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
+/*прописав для кнопок хове,фокус/неработает*/
+.button {
+    background-color: #F4F4FD;
+    /* Другие свойства для кнопки, если нужно */
+}
+
+.button:hover {
+    background-color: #404BBF;
+    /* Цвет, который нужен при наведении */
+}
+
+/*-------------------------MAIN-------------------------*/
+.menu-btn-item {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #4D5AE5;
+}
+
+/*шрифты app-ideas*/
+.ideas-title{
+    font-family: 'Roboto'; sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2E2F42;
+}
+.ideas-category{
+    font-family: 'Roboto'; sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
+/*шрифты для serise*/
+.servise-title{
+    font-family: 'Roboto';
+        sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2E2F42;
+}
+.servise-category{
+font-family: 'Roboto';
+    sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+/*Шрифты для portfolio-section*/
+.portfolio-section-title{
+font-family: 'Roboto';
+    sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+.portfolio-section-category{
+    font-family: 'Roboto';
+        sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
+/*-------------------------FOOTER-------------------------*/
+.web-text{
+    font-family: 'Raleway'; sans-serif;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.16;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #4D5AE5;
+}
+.studio-text{
+    font-family: 'Raleway'; sans-serif;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.16;
+        letter-spacing: 0.03em;
+        text-transform: uppercase
+        color: #F4F4FD;
+}
+.footer-text{
+    font-family: 'Roboto'; sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #F4F4FD;
+}
