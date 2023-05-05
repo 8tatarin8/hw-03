@@ -3,7 +3,7 @@
 2. Подключить modern-normalize
 3. Сбросить настройки*/
 
-/*-------------------------сбрасываю все настройки-------------------------*/
+/*-----------------сброс дефолтных настроек от браузера-----------------*/
 .list {
     list-style: none;
 }
@@ -13,6 +13,25 @@
 button {
     cursor: pointer;
 }
+
+h1,h2,h3,h4,p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul,ol{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+img{
+    display: block;
+}
+
+/*-------------------------COMPONENTS(кнопки...)-------------------------*/
+
+
 /*-------------------------HEADER-------------------------*/
 .web-text {
     font-family: 'Raleway';
@@ -27,8 +46,7 @@ button {
 }
 
 .studio-text {
-    font-family: 'Raleway';
-    sans-serif;
+    font-family: 'Raleway';sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
