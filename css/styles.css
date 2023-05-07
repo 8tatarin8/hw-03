@@ -41,12 +41,16 @@ img {
 .navigation {
     display: flex;
     align-items: center;
-    /*вирівнюю елементи в строку*/
-    flex-direction: row;
-
 }
-
-.menu-item {
+.menu {
+    display: flex;
+    align-items: center;
+}
+.page-address {
+    display: flex;
+    align-items: center;
+}
+.header-contacts {
     display: flex;
     align-items: center;
 }
@@ -103,6 +107,29 @@ img {
 }
 
 /*-------------------------MAIN-------------------------*/
+/*-------------------------прописую FLEX-------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .menu-btn-item {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
