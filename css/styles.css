@@ -14,18 +14,18 @@ button {
     cursor: pointer;
 }
 
-h1,h2,h3,h4,p{
+h1,h2,h3,h4,p {
     margin-top: 0;
     margin-bottom: 0;
 }
 
-ul,ol{
+ul,ol {
     margin-top: 0;
     margin-bottom: 0;
     padding-left: 0;
 }
 
-img{
+img {
     display: block;
 }
 
@@ -33,9 +33,27 @@ img{
 
 
 /*-------------------------HEADER-------------------------*/
+/*---------------прописую Flex---------------*/
+.main-header {
+    display: flex;
+    align-items: center;
+}
+.navigation {
+    display: flex;
+    align-items: center;
+    /*вирівнюю елементи в строку*/
+    flex-direction: row;
+
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+}
+
+/*---------------прописую шрифти---------------*/
 .web-text {
-    font-family: 'Raleway';
-    sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
@@ -46,13 +64,13 @@ img{
 }
 
 .studio-text {
-    font-family: 'Raleway';sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.16;
     letter-spacing: 0.03em;
-    text-transform: uppercase 
+    text-transform: uppercase;
     color: #F4F4FD;
 }
 
@@ -60,11 +78,12 @@ img{
     color: #4D5AE5;
 }
 .studio-text {
-    color: #2E2F42;;
+    color:#2E2F42;
 }
 /*інтерактивні посилання*/
+
 .header-contacts-item{
-    font-family: 'Roboto'; sans-serif;
+    font-family: 'Roboto', sans-serif;
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
@@ -91,12 +110,12 @@ img{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: #4D5AE5;
+    color:#4D5AE5;
 }
 
 /*шрифты app-ideas*/
-.ideas-title{
-    font-family: 'Roboto'; sans-serif;
+.ideas-title {
+    font-family: 'Roboto', sans-serif;
         font-style: normal;
         font-weight: 500;
         font-size: 20px;
@@ -104,8 +123,8 @@ img{
         letter-spacing: 0.02em;
         color: #2E2F42;
 }
-.ideas-category{
-    font-family: 'Roboto'; sans-serif;
+.ideas-category {
+    font-family: 'Roboto', sans-serif;
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
@@ -114,9 +133,8 @@ img{
         color: #434455;
 }
 /*шрифты для serise*/
-.servise-title{
-    font-family: 'Roboto';
-        sans-serif;
+.servise-title {
+    font-family: 'Roboto', sans-serif;
         font-style: normal;
         font-weight: 500;
         font-size: 20px;
@@ -124,9 +142,8 @@ img{
         letter-spacing: 0.02em;
         color: #2E2F42;
 }
-.servise-category{
-font-family: 'Roboto';
-    sans-serif;
+.servise-category {
+font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -135,9 +152,8 @@ font-family: 'Roboto';
     color: #434455;
 }
 /*Шрифты для portfolio-section*/
-.portfolio-section-title{
-font-family: 'Roboto';
-    sans-serif;
+.portfolio-section-title {
+font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -146,8 +162,7 @@ font-family: 'Roboto';
     color: #2E2F42;
 }
 .portfolio-section-category{
-    font-family: 'Roboto';
-        sans-serif;
+    font-family: 'Roboto', sans-serif;
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
@@ -157,7 +172,7 @@ font-family: 'Roboto';
 }
 /*-------------------------FOOTER-------------------------*/
 .web-text{
-    font-family: 'Raleway'; sans-serif;
+    font-family: 'Raleway', sans-serif;
         font-style: normal;
         font-weight: 800;
         font-size: 18px;
@@ -166,18 +181,18 @@ font-family: 'Roboto';
         text-transform: uppercase;
         color: #4D5AE5;
 }
-.studio-text{
-    font-family: 'Raleway'; sans-serif;
+.studio-text {
+    font-family: 'Raleway', sans-serif;
         font-style: normal;
         font-weight: 800;
         font-size: 18px;
         line-height: 1.16;
         letter-spacing: 0.03em;
-        text-transform: uppercase
+        text-transform: uppercase;
         color: #F4F4FD;
 }
-.footer-text{
-    font-family: 'Roboto'; sans-serif;
+.footer-text {
+    font-family: 'Roboto', sans-serif;
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
