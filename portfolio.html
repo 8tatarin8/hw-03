@@ -17,7 +17,8 @@
     
 </head>
 <body>
-    <header class="main-header container">
+    <header class="main-header">
+        <div class="container main-header-container">
         <nav class="navigation">
             <span class="web-text">Web</span>
             <span class="studio-text">Studio</span>
@@ -44,31 +45,35 @@
                 </li>
             </ul>
         </address>
+        </div>
     </header>
     <!--унікальний контент-->
     <main>
         <!--секція1.Список кнопок.Атрибут type="button"-->
-        <section class="hero-btn">
-            <h1 hidden lang="en">portfolio</h1>
-            <ul class="menu-btn">
-                <li class="menu-btn-item">
-                    <button type="button" class="menu-btn-all">All</button>
-                </li>
-                <li class="menu-btn-item">
-                    <button type="button" class="menu-btn-web">Web Site</button>
-                </li>
-                <li class="menu-btn-item">
-                    <button type="button" class="menu-btn-app">App</button>
-                </li>
-                <li class="menu-btn-item">
-                    <button type="button" class="menu-btn-design">Design</button>
-                </li>
-                <li class="menu-btn-item">
-                    <button type="button" class="menu-btn-marketing">Marketing</button>
-                </li>
-            </ul>
-        </section>
-        <section>
+        <div class="container">
+            <section class="hero-btn ">
+                <h1 hidden lang="en">portfolio</h1>
+                <ul class="menu-btn list">
+                    <li class="menu-btn-item">
+                        <button type="button" class="menu-btn-all">All</button>
+                    </li>
+                    <li class="menu-btn-item">
+                        <button type="button" class="menu-btn-web">Web Site</button>
+                    </li>
+                    <li class="menu-btn-item">
+                        <button type="button" class="menu-btn-app">App</button>
+                    </li>
+                    <li class="menu-btn-item">
+                        <button type="button" class="menu-btn-design">Design</button>
+                    </li>
+                    <li class="menu-btn-item">
+                        <button type="button" class="menu-btn-marketing">Marketing</button>
+                    </li>
+                </ul>
+            </section>
+        </div>
+       <div class="container">
+        <section class="web-product">
             <ul class="app-ideas">
                 <li class="product-item">
                     <img class="ideas-img" src="./images/developments/section2/bank-app.jpg" alt="banking app interface concept"
@@ -83,23 +88,26 @@
                     <p class="ideas-category" lang="en">Marketing</p>
                 </li>
                 <li class="product-item">
-                    <img class="ideas-img" src="./images/developments/section2/meditation-app.jpg" alt="meditation app" width="360"
-                        height="300">
+                    <img class="ideas-img" src="./images/developments/section2/meditation-app.jpg" alt="meditation app"
+                        width="360" height="300">
                     <h2 class="ideas-title" lang="en">Meditation App</h2>
                     <p class="ideas-category" lang="en">App</p>
                 </li>
                 <li class="product-item">
-                    <img class="service-img" src="./images/developments/section3/taxi-service.jpg" alt="taxi service" width="360" height="300">
+                    <img class="service-img" src="./images/developments/section3/taxi-service.jpg" alt="taxi service"
+                        width="360" height="300">
                     <h2 class="service-title" lang="en">Taxi Service</h2>
                     <p class="service-category" lang="en">Marketing</p>
                 </li>
                 <li class="product-item">
-                    <img class="service-img" src="./images/developments/section3/screen-illustrations.jpg" alt="screen illustrations" width="360" height="300">
+                    <img class="service-img" src="./images/developments/section3/screen-illustrations.jpg"
+                        alt="screen illustrations" width="360" height="300">
                     <h2 class="service-title" lang="en">Screen Illustrations</h2>
                     <p class="service-category" lang="en">Design</p>
                 </li>
                 <li class="product-item">
-                    <img class="service-img" src="./images/developments/section3/online-courses.jpg" alt="online courses" width="360" height="300">
+                    <img class="service-img" src="./images/developments/section3/online-courses.jpg" alt="online courses"
+                        width="360" height="300">
                     <h2 class="service-title" lang="en">Online Courses</h2>
                     <p class="service-category" lang="en">Marketing</p>
                 </li>
@@ -123,6 +131,8 @@
                 </li>
             </ul>
         </section>
+       </div>
+        
     </main>
     <footer class="footer">
         <span class="web-text">Web</span>

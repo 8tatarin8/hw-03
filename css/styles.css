@@ -30,11 +30,14 @@ img {
 }
 
 /*---------------створюю контейнер(центрую)---------------*/
+/*-------спільний клас для кожної секції,який огорнутий у DIV---*/
 .container {
     width: 1158px;
     margin-left: auto;
     margin-right: auto;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-right: 15px;
 
 }
 /*-------------------------COMPONENTS(кнопки...)-------------------------*/
@@ -42,7 +45,8 @@ img {
 
 /*-------------------------HEADER-------------------------*/
 /*---------------прописую Flex---------------*/
-.main-header {
+
+.main-header-container {
     display: flex;
     align-items: center;
 }
