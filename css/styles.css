@@ -53,10 +53,12 @@ img {
 .navigation {
     display: flex;
     align-items: center;
+    column-gap: 80px;
 }
 .menu {
     display: flex;
     align-items: center;
+    column-gap: 40px;
 }
 .page-address {
     display: flex;
@@ -65,7 +67,18 @@ img {
 .header-contacts {
     display: flex;
     align-items: center;
+    column-gap: 40px;
 }
+
+
+
+
+
+
+
+
+
+
 
 /*---------------прописую шрифти---------------*/
 .web-text {
