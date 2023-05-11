@@ -37,7 +37,6 @@ img {
     width: 1158px;
     margin-left: auto;
     margin-right: auto;
-    justify-content: space-between;
     padding-left: 15px;
     padding-right: 15px;
 
@@ -89,46 +88,36 @@ img {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    margin-top: 65px;
-    margin-bottom: 43px;
+    padding-top: 96px;
+    margin-bottom: 120px;
 }
-.hero-btn-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-}
+
 .menu-btn {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     column-gap: 24px;
+    margin-bottom: 72px;
 
 }
 .menu-btn-item {
     display: flex;
     align-items: center;
 }
+/*прописати ховер*/
 
+
+
+.filter-button {
+    padding: 12px 24px;
+}
 /*==========WEB-PRODUCT.Список кнопок.==========*/
 .web-product {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
+    column-gap: 48px, 24px;
 }
-.ideas-product-item,
-.service-product-item,
-.portfolio-product-item {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-}
-.ideas-product-item {
-    column-gap: 24px;
-}
-
-
-
-
 
 
 /*---------------прописую шрифти---------------*/
@@ -171,39 +160,11 @@ img {
         letter-spacing: 0.02em;
         color: #434455;
 }
-/*прописав для кнопок хове,фокус/неработает*/
-.button {
-    background-color: #F4F4FD;
-    /* Другие свойства для кнопки, если нужно */
-}
 
-.button:hover {
-    background-color: #404BBF;
-    /* Цвет, который нужен при наведении */
-}
+
 
 /*-------------------------MAIN-------------------------*/
 /*-------------------------прописую FLEX-------------------------*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 .menu-btn-item {
