@@ -117,7 +117,9 @@ img {
     background-color: #F4F4FD;
     color: #4D5AE5;
 }
-.filter-button:hover {
+.filter-button:hover, 
+.filter-button:focus
+{
     background-color: #404BBF;
     color: #FFFFFF;
 }
