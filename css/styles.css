@@ -1,7 +1,9 @@
 /*последовательность действий:
 1. Подключить шрифты
 2. Подключить modern-normalize
-3. Сбросить настройки*/
+3. Сбросить настройки
+4. Прописать шрифты
+5. Прописать стили CSS для: header, main, footer*/
 
 /*-----------------сброс дефолтных настроек от браузера-----------------*/
 .list {
@@ -78,6 +80,8 @@ img {
     display: flex;
     align-items: center;
     column-gap: 40px;
+  /*возможно не правильно*/  
+    margin-left: 250px;
 }
 
 /*==========HEADER==========*/
@@ -98,27 +102,38 @@ img {
     justify-content: center;
     column-gap: 24px;
     margin-bottom: 72px;
+    
 
 }
 .menu-btn-item {
     display: flex;
     align-items: center;
 }
-/*прописати ховер*/
 
+/*реаьная беда с кнопками*/
+.button:hover {
+    background-color: gray;
+    color: #4D5AE5;
+}
 
 
 .filter-button {
     padding: 12px 24px;
 }
+
 /*==========WEB-PRODUCT.Список кнопок.==========*/
 .web-product {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    column-gap: 48px, 24px;
+    gap: 24px, 48px;
 }
-
+/*прописал рамку и padding*/
+.title-category-text {
+    padding: 32px 32px 55px 16px;
+    border: 1px solid #E7E9FC;
+    border-top: none;
+}
 
 /*---------------прописую шрифти---------------*/
 .web-text {
