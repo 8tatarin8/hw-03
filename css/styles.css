@@ -111,14 +111,15 @@ img {
 }
 
 /*реаьная беда с кнопками*/
-.button:hover {
-    background-color: gray;
-    color: #4D5AE5;
-}
-
 
 .filter-button {
     padding: 12px 24px;
+    background-color: #F4F4FD;
+    color: #4D5AE5;
+}
+.filter-button:hover {
+    background-color: #404BBF;
+    color: #FFFFFF;
 }
 
 /*==========WEB-PRODUCT.Список кнопок.==========*/
@@ -126,7 +127,7 @@ img {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    gap: 24px, 48px;
+    gap: 48px 24px;
 }
 /*прописал рамку и padding*/
 .title-category-text {
@@ -190,6 +191,7 @@ img {
     line-height: 1.5;
     letter-spacing: 0.04em;
     color:#4D5AE5;
+
 }
 
 /*шрифты app-ideas*/
