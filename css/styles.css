@@ -139,12 +139,10 @@ img {
 }
 /*=====MAIN=====*/
 /*-----прописую  стилі для FOOTER-----*/
-
-.footer-container {
+.footer {
     margin-top: 100px;
     margin-bottom: 100px;
-    margin-left: 156px;
-    margin-right: 1020px;
+    background-color: red;
 }
 
 .web-text,
