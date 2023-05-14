@@ -54,8 +54,8 @@ img {
 .main-header {
     display: flex;
     align-items: center;
-    padding-top: 26px;
-    padding-bottom: 26px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .main-header-container {
@@ -137,6 +137,33 @@ img {
     border: 1px solid #E7E9FC;
     border-top: none;
 }
+/*=====MAIN=====*/
+/*-----прописую  стилі для FOOTER-----*/
+
+.footer-container {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 156px;
+    margin-right: 1020px;
+}
+
+.web-text,
+.studio-text {
+    display: inline-block;
+}
+.footer-text {
+    margin-top: 16px;
+}
+
+
+
+
+
+
+
+
+
+
 
 /*---------------прописую шрифти---------------*/
 .web-text {
@@ -281,5 +308,5 @@ font-family: 'Roboto', sans-serif;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        color: #F4F4FD;
+        color: black;
 }
